@@ -22,4 +22,4 @@ You are required to implement at least:
 - _VendingStorage_ – a class that represents the storage area of a Vending Machine where the items are stored (you should choose the right Java Collection for this job).
 - _NotFullPaidException_ – an Exception thrown by Vending Machine when a user tries to collect an item, without paying the full amount.
 - _NotSufficientChangeException_ – Vending Machine throws this exception to indicate that it doesn't have sufficient change to complete this request.
-- _SoldOutExcepiton_ – Vending Machine throws this exception if the user request for a product which is sold out.
+- _SoldOutException_ – Vending Machine throws this exception if the user request for a product which is sold out.
