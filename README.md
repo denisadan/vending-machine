@@ -23,3 +23,14 @@ You are required to implement at least:
 - _NotFullPaidException_ – an Exception thrown by Vending Machine when a user tries to collect an item, without paying the full amount.
 - _NotSufficientChangeException_ – Vending Machine throws this exception to indicate that it doesn't have sufficient change to complete this request.
 - _SoldOutException_ – Vending Machine throws this exception if the user request for a product which is sold out.
+
+Status: 
+- the master branch contains code implemented during a java beginner coding session
+- the goal of the session was for students to implement an application from scratch, define the model classes,
+understanding the interactions between objects, writing OOP methods, reusing/extracting code, writing some unit tests,
+defining custom exceptions. 
+- this code is a reference for the students in the class. Can be refactored.
+- /refactoring branch contains the same code refactored in a more functional style
+
+TODO:
+- read and write storage and coins from/to a file
